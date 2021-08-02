@@ -67,8 +67,8 @@
 
 	<div class="block">
 		
-		<h1>Abdulrahman Almutairi</h1>
-		<p>Photographer, Editor, And a Student</p>
+		<h1 class="hero-title">Abdulrahman Almutairi</h1>
+		<p class="hero-subtitle">Photographer, Editor, And a Student</p>
 		
 		
 		<a href="#about" class="fas fa-angle-double-down btn btn-transparent page-scroll"></a>
@@ -754,7 +754,7 @@
 
 			<!-- Contact Details -->
 			<div class="contact-info col-lg-6 wow fadeInUp" data-wow-duration="500ms">
-				<h3>Contact Details</h3>
+				<h3 class="contact-subtitle">Contact Details</h3>
 				<p> Feel free to contact me via my email below, through my social accounts, or use this form! </p>
 
 				
@@ -778,18 +778,18 @@
 			
 			
 			<div class="col-lg-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
-				<form id="contact-form" class="form-meghna" method="post" action="#" role="form">
+				<form id="contact-form" class="form-meghna" autocomplete="off" method="POST" action="https://formspree.io/f/mdoywdlp" role="form">
 					<div class="form-group">
-						<input type="text" placeholder="Your Name" class="form-control" name="name" id="name">
+						<input type="text" placeholder="Your Name" class="form-control" name="name" id="name" required>
 					</div>
 					<div class="form-group">
-						<input type="email" placeholder="Your Email" class="form-control" name="email" id="email">
+						<input type="email" placeholder="Your Email" class="form-control" name="email" id="email" required>
 					</div>
 					<div class="form-group">
-						<input type="text" placeholder="Subject" class="form-control" name="subject" id="subject">
+						<input type="text" placeholder="Subject" class="form-control" name="subject" id="subject" required>
 					</div>
 					<div class="form-group">
-						<textarea rows="6" placeholder="Message" class="form-control" name="message" id="message"></textarea>
+						<textarea rows="6" placeholder="Message" class="form-control" name="message" id="message" required></textarea>
 					</div>
 					<div id="cf-submit">
 						<button type="submit" id="contact-submit" class="btn btn-transparent btn-block"
@@ -805,6 +805,12 @@
 <!-- /contact -->
 
 
+
+<script>
+	document.getElementById("contact-submit").addEventListener("click", function(){
+		document.getElementById("contact-form").className="form-meghna submitted";
+	});
+</script>
 
 
 
@@ -857,6 +863,8 @@
 <script src="https://m6tier.github.io/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
 
 <script src="https://m6tier.github.io/plugins/lazy-load/lozad.min.js"></script>
+
+<script src="https://m6tier.github.io/plugins/typewriter.js"></script>
 
 
 <!-- Main Script -->
