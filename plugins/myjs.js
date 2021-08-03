@@ -16,6 +16,6 @@ $(".social-icon ul li a").hover(
     }
   );
 
-$(document).ready(function(){
+$(window).load(function() {
   $('css selector').addClass('animate__animated').
 });
