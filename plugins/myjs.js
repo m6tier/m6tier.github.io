@@ -1,13 +1,5 @@
-$(".social-icon ul li a").hover(
-  function () {
-    $(this).addClass('animate__animated animate__pulse');
-  }, 
-  function () {
-    $(this).removeClass('animate__animated animate__pulse');
-  }
-  );
   
-  $("#mshlLogoFooter").hover(
+  $("#mshlLogoFooter, .navbar-brand, .social-icon ul li a, .nav-item").hover(
     function () {
       $(this).addClass('animate__animated animate__pulse');
     }, 
@@ -16,8 +8,22 @@ $(".social-icon ul li a").hover(
     }
   );
 
+
 $(window).on('load', function () {
   $('.hero-title').addClass('animate__animated animate__fadeInDown');
   $('.hero-subtitle').addClass('animate__animated animate__flipInX');
   $('.scroll-downs').addClass('animate__animated animate__fadeIn');
   });
+
+
+$(document).ready(function(){
+  $('#nav-icon4').click(function(){
+    $(this).toggleClass('open');
+  });
+});
+
+(function () {
+  $('.burger-btn').on('click', function() {
+    $('.hamburger-menu').toggleClass('animate');
+  })
+})();
