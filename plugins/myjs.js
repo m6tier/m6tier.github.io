@@ -15,3 +15,7 @@ $(".social-icon ul li a").hover(
       $(this).removeClass('animate__animated animate__pulse');
     }
   );
+
+$(document).ready(function(){
+  $('css selector').addClass('animate__animated').
+});
