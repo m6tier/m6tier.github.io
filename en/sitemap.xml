@@ -3,7 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://m6tier.github.io/en/</loc>
-    <lastmod>2018-09-12T14:51:12+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
@@ -13,44 +12,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://m6tier.github.io/en/"
-                />
-  </url><url>
-    <loc>https://m6tier.github.io/en/blog/</loc>
-    <lastmod>2018-09-12T14:51:12+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://m6tier.github.io/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://m6tier.github.io/en/blog/"
-                />
-  </url><url>
-    <loc>https://m6tier.github.io/en/blog/installation/</loc>
-    <lastmod>2018-09-12T14:51:12+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://m6tier.github.io/blog/installation/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://m6tier.github.io/en/blog/installation/"
-                />
-  </url><url>
-    <loc>https://m6tier.github.io/en/author/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://m6tier.github.io/author/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://m6tier.github.io/en/author/"
                 />
   </url><url>
     <loc>https://m6tier.github.io/en/categories/</loc>
@@ -63,30 +24,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://m6tier.github.io/en/categories/"
-                />
-  </url><url>
-    <loc>https://m6tier.github.io/en/author/john-doe/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://m6tier.github.io/author/john-doe/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://m6tier.github.io/en/author/john-doe/"
-                />
-  </url><url>
-    <loc>https://m6tier.github.io/en/author/mark-dinn/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://m6tier.github.io/author/mark-dinn/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://m6tier.github.io/en/author/mark-dinn/"
                 />
   </url><url>
     <loc>https://m6tier.github.io/en/tags/</loc>
