@@ -2,40 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://m6tier.github.io/en/</loc>
+    <loc>https://m6tier.mshl.me/en/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="https://m6tier.github.io/"
+                href="https://m6tier.mshl.me/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://m6tier.github.io/en/"
+                href="https://m6tier.mshl.me/en/"
                 />
   </url><url>
-    <loc>https://m6tier.github.io/en/categories/</loc>
+    <loc>https://m6tier.mshl.me/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="https://m6tier.github.io/categories/"
+                href="https://m6tier.mshl.me/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://m6tier.github.io/en/categories/"
+                href="https://m6tier.mshl.me/en/categories/"
                 />
   </url><url>
-    <loc>https://m6tier.github.io/en/tags/</loc>
+    <loc>https://m6tier.mshl.me/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="https://m6tier.github.io/tags/"
+                href="https://m6tier.mshl.me/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://m6tier.github.io/en/tags/"
+                href="https://m6tier.mshl.me/en/tags/"
                 />
   </url>
 </urlset>
