@@ -47,7 +47,7 @@
   <div id="content">
     
 <!-- preloader start -->
-<div class="preloader" style="background-color: #3f7d20;">
+<div class="preloader" style="background-color: var(--bg1);">
   
   <div style="display: flex;justify-content: center;align-items: center; width: 20%;">
     <div class="line line-1"></div>
@@ -55,7 +55,13 @@
     <div class="line line-3"></div>
     <div class="line line-4"></div>
     <div class="line line-5"></div> </div>
-  <div style="bottom: 10px;position: absolute; direction: rtl; color: var(--txt2); font-size: 0.8rem;">من تصميم وصنع <a href="https://mshl.me">&nbsp;<img src="/images/mshl_logo_white.png" alt="" height="18px" style="margin-bottom: 5px">&nbsp;<u>mshl.me</u></a></div>
+  <div class="copyright text-center mb-1 pb-1" style="bottom: 0;position: absolute; font-size: 0.8rem;">
+    <p>© 2021 Abdulrahman
+      <br>
+      Site made with &nbsp;<i class="fas fa-heart" style="color: #e74c3c;"></i>&nbsp; by 
+      <a href="https://mshl.me/" target="_blank">&nbsp;<img src="/images/mshl_logo.png" id="mshlPreloader" alt="" height="18px" style="margin-bottom: 2px">&nbsp;<u>mshl.me</u></a>
+    </p>
+  </div>
   
 </div>
 <!-- preloader end -->
@@ -128,18 +134,11 @@
 				
 				
 				<li class="nav-item px-3">
-					<a class="nav-link" href="#">
-						<label class="theme-switch" for="checkbox">
-							<input type="checkbox" id="checkbox" style="display:none;"/>
-							<i class="fas fa-adjust" style="cursor: pointer;"></i>
-						</label>
-					</a>
-					
+					<a class="nav-link" id="darkSelector" aria-controls="navbarResponsive"><i class="fas fa-adjust"></i></a>
 				</li>
 				
 				<li class="nav-item dropdown ps-3">
-				
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					<a class="nav-link dropdown-toggle" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 						<i class="fas fa-globe-asia"></i>
 					</a>
 					<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDarkDropdownMenuLink">
@@ -147,6 +146,8 @@
 						<li><a class="dropdown-item" href="/en"><img src="/images/lang/usa.svg" alt="" height="20"> &nbsp; English</a></li>
 					</ul>
 				</li>
+				
+				
 			</ul>
 			
 		</div>
@@ -731,13 +732,17 @@
 				<div class="contact-details">
 					
 					<div class="con-info clearfix" style="direction: ltr !important;">
-						<i class="fas fa-mobile-alt"></i>
-						<span>&#43;965 66467967</span>
+						<a href="tel:&#43;96566467967">
+							<i class="fas fa-mobile-alt"></i>
+							<span><u>&#43;965 66467967</u></span>
+						</a>
 					</div>
 					
 					<div class="con-info clearfix" style="direction: ltr !important;">
-						<i class="fas fa-envelope"></i>
-						<span>m6tier@gmail.com</span>
+						<a href="mailto:m6tier@gmail.com">
+							<i class="fas fa-envelope"></i>
+							<span><u>m6tier@gmail.com</u></span>
+						</a>
 					</div>
 					
 				</div>
@@ -813,9 +818,12 @@
 				</ul>
 
 				<!-- copyright -->
-				<div class="copyright text-center">
-					<p>&copy; 2021 Made with &nbsp;<i class="fas fa-heart" style="color: #e74c3c;"></i>&nbsp; by 
-						<a href="https://mshl.me/" target="_blank"><u>Meshal - mshl.me</u></a></p>
+				<div class="copyright text-center pt-1">
+					<p>© 2021 Abdulrahman
+						<br>
+						Site made with &nbsp;<i class="fas fa-heart" style="color: #e74c3c;"></i>&nbsp; by 
+						<a href="https://mshl.me/" target="_blank">&nbsp;<img id="mshlFooter" alt="" height="18px" style="margin-bottom: 2px">&nbsp;<u>mshl.me</u></a>
+					</p>
 				</div>
 			</div>
 		</div>
@@ -853,7 +861,7 @@
 
 <script src="https://m6tier.mshl.me/js/script.min.e17c81c4f9cbae24a381e34d3bd680c32da3f3570ee8d440189ef71de2a91bc7e80f6eefccab83e72ed0ff08bcf251dd.js" integrity="sha384-4XyBxPnLriSjgeNNO9aAwy2j81cO6NRAGJ73HeKpG8foD27vzKuD5y7Q/wi88lHd"></script>
 
-<script src="https://m6tier.mshl.me/js/app.min.9ed3fecf3bea3ab7984a2a250b4963386f2484641d35d7f66bc06fa788624f782c4c32fda9782b32bdf5741a6dcec996.js" integrity="sha384-ntP&#43;zzvqOreYSiolC0ljOG8khGQdNdf2a8Bvp4hiT3gsTDL9qXgrMr31dBptzsmW"></script>
+<script src="https://m6tier.mshl.me/js/app.min.ce917bdd03c2a83a1084423c36ce30ff31eb8a63dd1ef480a675a6d81754231b448708f2ba55eb91421439603266a86c.js" integrity="sha384-zpF73QPCqDoQhEI8Ns4w/zHrimPdHvSApnWm2BdUIxtEhwjyulXrkUIUOWAyZqhs"></script>
 
 
 </body>
