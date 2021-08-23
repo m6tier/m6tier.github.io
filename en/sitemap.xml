@@ -2,40 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://m6tier.mshl.me/en/</loc>
+    <loc>https://m6tier.com/en/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="https://m6tier.mshl.me/"
+                href="https://m6tier.com/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://m6tier.mshl.me/en/"
+                href="https://m6tier.com/en/"
                 />
   </url><url>
-    <loc>https://m6tier.mshl.me/en/categories/</loc>
+    <loc>https://m6tier.com/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="https://m6tier.mshl.me/categories/"
+                href="https://m6tier.com/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://m6tier.mshl.me/en/categories/"
+                href="https://m6tier.com/en/categories/"
                 />
   </url><url>
-    <loc>https://m6tier.mshl.me/en/tags/</loc>
+    <loc>https://m6tier.com/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="https://m6tier.mshl.me/tags/"
+                href="https://m6tier.com/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://m6tier.mshl.me/en/tags/"
+                href="https://m6tier.com/en/tags/"
                 />
   </url>
 </urlset>
