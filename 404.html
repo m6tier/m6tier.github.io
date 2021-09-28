@@ -65,9 +65,9 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="https://m6tier.com/images/favicons/favicon-16x16.png?v=4">
 	<link rel="manifest" href="https://m6tier.com/images/favicons/site.webmanifest?v=4">
 	<link rel="shortcut icon" href="https://m6tier.com/images/favicons/favicon.ico?v=4">
-	<meta name="msapplication-TileColor" content="#212529">
+	<meta name="msapplication-TileColor" content="#111">
 	<meta name="msapplication-config" content="/images/favicons/browserconfig.xml?v=4">
-	<meta name="theme-color" content="#212529">
+	<meta name="theme-color" content="#111">
 
 	<meta name="robots" content="index,follow" /> 
 	<meta name="googlebot" content="index,follow" />
@@ -112,21 +112,50 @@
 <!-- Navigation -->
 <nav class="navbar navigation navbar-dark navbar-expand-sm fixed-top" id="navbar">
 	<div class="container-fluid px-md-5 mx-md-5 px-3">
-		
-		<a class="navbar-brand" href="https://m6tier.com/">
-			<img class="lozad" id='navbar-img' src="https://m6tier.com/images/logo_white.png" alt="Abdulrahman Almutairi" height="34" style="margin-bottom: 6px;">
-		</a>
-		
-		
-		<button class="navbar-toggler py-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+
+		<div class="d-flex flex-grow-1">
+
+			<div class="w-100 d-flex justify-content-start d-sm-none">
+				<button class="navbar-toggler py-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+					
+					<div class="animated-burger" id="burger">
+						<div class="bar topBar"></div>
+						<div class="bar btmBar"></div>
+					  </div>
+				</button>
+			</div>
+
+			<div class="brand-centered">
+				<a class="navbar-brand mx-0" href="https://m6tier.com/">
+					<img class="lozad" id='navbar-img' src="https://m6tier.com/images/logo_white.png" alt="Abdulrahman Almutairi" height="34" style="margin-bottom: 6px;">
+				</a>
+			</div>
 			
-			<div class="animated-burger" id="burger">
-				<div class="bar topBar"></div>
-				<div class="bar btmBar"></div>
-			  </div>
-		  </button>
+			<div class="w-100 d-flex d-sm-none d-block align-items-center">
+				<ul class="my-0 px-0 w-100 list-inline d-flex justify-content-end">
+	
+					<li class="mobile-nav-item px-4 list-inline-item">
+						<a class="" id="darkSelector2" aria-controls="navbarResponsive" title='Change Site Theme'><i class="fas fa-adjust"></i></a>
+					</li>
+					
+					<li class="mobile-nav-item mobile-lang dropdown list-inline-item">
+						<a class="dropdown-toggle" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" title='Change Language'>
+							<i class="fas fa-globe-asia"></i>
+						</a>
+						<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDarkDropdownMenuLink" style="text-transform: capitalize;">
+							<li><a class="dropdown-item" href="https://m6tier.com/ar"><img src="https://m6tier.com/images/lang/kwt.svg" alt="" height="20"> &nbsp; العربية</a></li>
+							<li><a class="dropdown-item" href="https://m6tier.com/"><img src="https://m6tier.com/images/lang/usa.svg" alt="" height="20"> &nbsp; English</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+
 		
-		<div class="collapse navbar-collapse" id="navbarResponsive">
+		
+		</div>
+
+
+		<div class="collapse navbar-collapse justify-content-end" id="navbarResponsive">
 			
 			<hr style="color: var(--txt1);">
 			
@@ -149,11 +178,11 @@
 				</li>
 				
 				
-				<li class="nav-item px-3">
+				<li class="nav-item px-3 d-none d-sm-block">
 					<a class="nav-link" id="darkSelector" aria-controls="navbarResponsive" title='Change Site Theme'><i class="fas fa-adjust"></i></a>
 				</li>
 				
-				<li class="nav-item dropdown px-3">
+				<li class="nav-item dropdown px-3 d-none d-sm-block">
 					<a class="nav-link dropdown-toggle" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" title='Change Language'>
 						<i class="fas fa-globe-asia"></i>
 					</a>
@@ -270,7 +299,7 @@
 
 <script src="https://m6tier.com/js/script.min.bd84056dcb9c8d08fa73a6cab142350dcb9d05d4b80fe6f0d8f74b64496685ea44a42055074fc72ddeb58e2deff9a1ec.js" integrity="sha384-vYQFbcucjQj6c6bKsUI1DcudBdS4D&#43;bw2PdLZElmhepEpCBVB0/HLd61ji3v&#43;aHs"></script>
 
-<script src="https://m6tier.com/js/app.min.27b0cd27cb2a4cfc7a55d6887447bb28d4712f9b1ee8c1de15cf7fbdaeaaa025890b92ba282650502b861dc08608beeb.js" integrity="sha384-J7DNJ8sqTPx6VdaIdEe7KNRxL5se6MHeFc9/va6qoCWJC5K6KCZQUCuGHcCGCL7r"></script>
+<script src="https://m6tier.com/js/app.min.a5c5af8df12a13829b18a88867df58accdf1fcbae37c2e33a951f0fd50e2e4dcdb36a86ee7e7fde071e47b6ae36b950a.js" integrity="sha384-pcWvjfEqE4KbGKiIZ99YrM3x/LrjfC4zqVHw/VDi5NzbNqhu5&#43;f94HHke2rja5UK"></script>
 
 
 </body>
