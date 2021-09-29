@@ -13,29 +13,5 @@
                 hreflang="en"
                 href="https://m6tier.com/"
                 />
-  </url><url>
-    <loc>https://m6tier.com/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://m6tier.com/ar/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://m6tier.com/categories/"
-                />
-  </url><url>
-    <loc>https://m6tier.com/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://m6tier.com/ar/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://m6tier.com/tags/"
-                />
   </url>
 </urlset>
